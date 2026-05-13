@@ -12,8 +12,8 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 async def on_ready():
     print(f'Logged in as {bot.user}')
     await bot.change_presence(activity=discord.Streaming(
-        name='streaming-name', 
-        url='https://www.twitch.tv/urtwitchusername'
+        name='Utopia Network', 
+        url='https://discord.gg/RRCjw6XWy'
     ))
 
 TOKEN = os.getenv('DISCORD_BOT_TOKEN')
